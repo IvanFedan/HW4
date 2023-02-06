@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work with forms</title>
+</head>
+<body>
+    
+    <h1>Hire me</h1>
+    <h2>Contact information</h2>
+   <table border="1" cellspacing="0" cellpadding="10px">
+      <thead>
+    <tr>
+        <td><strong>Phone</strong></td>
+        <td>+380986627634</td>
+    </tr>
+    <tr>
+        <td><strong>Adress</strong></td>
+        <td>Lviv, Ukrane</td>
+    </tr>
+</thead>
+   </table>
+   <br/>
+    <form action="/forms.html" method="get">
+     <fieldset>
+        <legend>Contact form</legend>
+        <label for="contact-email"> E-mail:</label>
+        <input id="contact-email" type="email" required name="email" />
+        
+        <br/>
+ 
+        <label for="description"> Description:</label>
+        <textarea id="description" name="description"></textarea>
+        <br/>
+        <label>
+            <br/>
+            Work type:
+            <select name="type">
+             <option value="type_1"> Full-time</option>
+             <option value="type_2"> Office work</option>
+             <option value="type_3"> Project work</option>
+             <option value="type_4"> Remote work</option>
+           </select>
+           
+         </label>
+         <br/>
+          <input type="submit" value="Hire me" />
+      </fieldset>
+    </form>
+</body>
+</html>
