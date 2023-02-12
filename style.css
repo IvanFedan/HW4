@@ -5,6 +5,10 @@ body {
 .position {
     font-weight: 900 ;
 }
+
+h1 {
+    font-style: italic;
+}
 ul {
     list-style-type: square;
 }
